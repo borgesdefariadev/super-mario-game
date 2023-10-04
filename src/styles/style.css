@@ -49,6 +49,22 @@ footer {
     font-size: 3em;
     color: #111;  
   }
+
+  #restart-btn {
+    position: absolute;
+    font-family: 'Pixelify Sans', cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    padding: 10px;
+    background-color: #f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
 }
 
 .floor {

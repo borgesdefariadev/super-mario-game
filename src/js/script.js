@@ -2,6 +2,7 @@ const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const floor = document.querySelector('.floor');
 const scoreBoard = document.getElementById('score-board');
+const restartBtn = document.getElementById('restart-btn');
 
 let score = 0;
 
@@ -15,6 +16,7 @@ const jump = (event) => {
     }, 1000)
   }
 }
+
 
 const loop = setInterval(() => {
   const pipePosition = pipe.offsetLeft
@@ -37,9 +39,14 @@ const loop = setInterval(() => {
     mario.style.margin = '50px';
     floor.src = './assets/static-floor.png';
 
+    restartBtn.style.display = 'block'; // Show the restart button
+    
     clearInterval(loop);
   }
-}, 10)
+  restartBtn.addEventListener('click', () => {
+    window.location.reload();
+  });
 
+}, 10)
 
 document.addEventListener('keydown', jump);
