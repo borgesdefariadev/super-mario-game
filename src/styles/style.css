@@ -91,6 +91,7 @@ footer {
 
 .clouds {
   position: absolute;
+  top: 10%;
   margin-top: 80px;
   width: 300px;
   animation: clouds-animation 20s linear infinite;
