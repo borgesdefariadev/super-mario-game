@@ -7,7 +7,7 @@ const jump = (event) => {
     setTimeout(() => {
       mario.classList.remove('jump');
 
-    }, 200)
+    }, 1000)
   }
 }
 
