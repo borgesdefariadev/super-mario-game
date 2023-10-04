@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0 auto;
-  width: 90%;
+  width: 70%;
   height: 40%;
 }
 
@@ -25,7 +25,8 @@ footer {
   justify-content: center;
 
   .heart {
-    width: 2.5rem;
+    width: 1.5rem;
+    bottom: 0;
   }
 }
 
@@ -37,10 +38,20 @@ footer {
   position: relative;
   overflow: hidden;
   background: linear-gradient(#87CEEB, #fff);
+
+  #score-board {
+    position: absolute;
+    margin-left: 90vh;
+    justify-content: flex-start;
+    font-family: 'Pixelify Sans', cursive;
+    top: 10px;
+    left: 10px;
+    font-size: 3em;
+    color: #111;  
+  }
 }
 
 .floor {
-  position: relative;
   height: 100%;
   width: 100%;
   object-fit: contain;
@@ -49,9 +60,9 @@ footer {
 .pipe {
   position: absolute;
   bottom: 0;
-  width: 80px;
+  width: 70px;
   right: 0;
-  animation: pipe-animation 2s infinite linear;
+  animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario {
@@ -61,15 +72,17 @@ footer {
 }
 
 .jump {
-  animation: jump 0.60s ease-out;
+  animation: jump 0.70s ease-out;
 }
 
 .clouds {
   position: absolute;
   margin-top: 80px;
   width: 300px;
-  animation: clouds-animation 50s linear infinite;
+  animation: clouds-animation 20s linear infinite;
 }
+
+
 
 @keyframes jump {
   0% {
