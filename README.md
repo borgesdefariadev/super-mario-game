@@ -3,5 +3,5 @@
     <p>screenshot</p>
 </div>
 
-# Super Mario Jump
-Super Mario game as a study project for web development.
+ <h1 align="center">Super Mario Jump</h1>
+<p align="center">Super Mario game as a study project for web development.</p>
