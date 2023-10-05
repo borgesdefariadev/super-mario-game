@@ -1,5 +1,6 @@
 <div align="center">
-    <img src="https://2.bp.blogspot.com/-pCyZ8ryV9js/WC4Xh0Sj8YI/AAAAAAAAfBM/qQH2Inb7IUMKK62yt7mVcitS4huu_oeEQCLcB/s1600/2iqjp15.png" width="300px"/>
+    <img src="https://gcdnb.pbrd.co/images/DQVKsDua782A.png?o=1" width="300px"/>
+    <p>screenshot</p>
 </div>
 
 # Super Mario Jump
